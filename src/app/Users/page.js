@@ -1,11 +1,9 @@
 export default function Userspage() {
-    return[
-         <div>
-            <div>
-                <p>Halaman Users</p>
-            </div>
-            
-            
+    return(
+        <div>
+            <h1>Halaman User 10</h1>
         </div>
-    ]
+    )
+  
+    
 }
