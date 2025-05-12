@@ -10,7 +10,7 @@ export default function Users() {
             <IconUser/>Users
             </button>
           <button className="text-black">
-            <IconKey/>Hak Akses
+            <IconKey/>Hak Aksessssssssssssssssssss
             </button>
           <button>Logout</button>
         </div>
