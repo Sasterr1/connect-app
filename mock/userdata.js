@@ -6,14 +6,20 @@ export const usersData = [
     status:"Aktif"
 },
 {
-    name:"Shafira",
-    email:"Shafira@universitas.ac.id",
+    name:"Lintang",
+    email:"lintang@universitas.ac.id",
     roles:"Employee",
     status:"Aktif"
 },
 {
-    name:"Lintang",
-    email:"Lintang@universitas.ac.id",
+    name:"Shafira",
+    email:"shafira@universitas.ac.id",
+    roles:"Employee",
+    status:"Aktif"
+},
+{
+    name:"LebahGanteng",
+    email:"lebahganteng@universitas.ac.id",
     roles:"Employee",
     status:"Aktif"
 }
