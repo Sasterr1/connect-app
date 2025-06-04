@@ -12,7 +12,7 @@ export default function Home() {
 
   console.log (data);
   function handleSubmit() {
-    router.push("/users")
+    router.push("/admin/users")
   }
 
   return (
