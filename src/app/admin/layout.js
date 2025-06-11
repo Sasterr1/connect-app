@@ -5,15 +5,14 @@ import {
   IconUsersGroup,
   IconUsersPlus,
   IconPlus,
+  IconNews,
 } from "@tabler/icons-react";
 import Link from "next/link";
 export default function AdminLayout({ children }) {
   return (
     <section id="container" className="flex h-screen justify-center">
       <section
-        id="navigation"
-        className="bg-white w-[15%] border-r border-gray-300 p-4 "
-      >
+        id="navigation" className="bg-white w-[15%] border-r border-gray-300 p-4">
         <h1 className="text-[30px] mb-5  font-sans  font-bold text-center">
           Connect
         </h1>
@@ -28,13 +27,13 @@ export default function AdminLayout({ children }) {
               <IconUsersPlus /> Hak Akses
             </button>
           </Link>
-          <Link href="</div>../>admin/news">
-            <button className=" flex items-center gap-2 py-2 px-3  w-[90%] "> 
-              <IconUsersPlus /> News
+          <Link href="../admin/news">
+            <button className=" flex items-center gap-2 py-2 px-3  w-[90%] cursor-pointer "> 
+              <IconNews /> News
             </button>
           </Link>
           <Link href="../..">
-            <button className=" flex items-center gap-2 py-2 px-3  w-[90%] ">
+            <button className=" flex items-center gap-2 py-2 px-3  w-[90%] cursor-pointer">
               <IconLogout2 /> Logout
             </button>
           </Link>
